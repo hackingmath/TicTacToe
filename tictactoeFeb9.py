@@ -56,7 +56,7 @@ def computerMove(boardList,spaces):
         if n in boardList:
             continue
         spaces2[n] = 'O'
-        print(spaces2)
+        #print(spaces2)
         if checkWin('O',spaces2):
             return n
     #check for human win on next move:
